@@ -8,6 +8,7 @@ dotenv.config({ path: "./config.env" });
 
 require("./db/conn")
 
+const User = require("./model/useSchema")
 
 // const DB = process.env.DATABASE;
 const PORT = process.env.PORT;
